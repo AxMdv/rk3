@@ -6,12 +6,12 @@ CREATE TABLE COUNTRIES (
 `City` VARCHAR(20) NOT NULL,
 `Country` VARCHAR(20) NOT NULL,
 `Population` INT(100000000) NOT NULL,
-`Code` VARCHAR(100) NOT NULL,);
+`Code` VARCHAR(100) NOT NULL);
 
 
 INSERT INTO `COUNTRIES` (`City`, `Country`, `Population`, `Code`) VALUES (`Moscow`, `Russia`, `20000000` , `Ruble`);
 INSERT INTO `COUNTRIES` (`City`, `Country`, `Population`, `Code`) VALUES (`Netherlands`, `Amsterdam`, `3000000` , `Dollar`);  
-INSERT INTO `COUNTRIES` (`City`, `Country`, `Population`, `Code`) VALUES (`Norway`, `Oslo`, `200000` , `Euro`);  
+INSERT INTO `COUNTRIES` (`Ciyy`, `Country`, `Population`, `Code`) VALUES (`Norway`, `Oslo`, `200000` , `Euro`);  
 INSERT INTO `COUNTRIES` (`City`, `Country`, `Population`, `Code`) VALUES (`Germany`, `Berlin`, `5000000` , `Euro`);  
 INSERT INTO `COUNTRIES` (`City`, `Country`, `Population`, `Code`) VALUES (`England`, `London`, `20000000` , `Fount`);  
    
